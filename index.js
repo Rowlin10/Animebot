@@ -1,12 +1,8 @@
 const Discord = require('discord.js');
-const Commando = require('discord.js-commando');
 const client = new Discord.Client();
-const bot = new Commando.Client();
 const { Client, Attachment } = require('discord.js');
-const ytdl = require("ytdl-core");
 const { RichEmbed } = require('discord.js');
 
-require('dotenv').config()
 client.login('NjIyMDk0Njg3NjQ1NDY2NjM0.XXu5eA.MbwLpTWuhszCpDpLhS6aVYVlv0E')
 
 
