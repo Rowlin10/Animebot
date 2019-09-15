@@ -17,5 +17,5 @@ client.on('message', message => {
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.NjIyMDk0Njg3NjQ1NDY2NjM0.XXu5eA.MbwLpTWuhszCpDpLhS6aVYVlv0E);
+// THIS  MUST  BE  THIS  WAYclient.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
